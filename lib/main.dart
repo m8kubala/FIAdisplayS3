@@ -1,17 +1,24 @@
 import 'package:flutter/material.dart';
+import 'intro_screen.dart';
 import 'device_list.dart';
+import 'input_screen.dart'; // Not used directly here yet, but ready for route-based navigation
 
 void main() {
-  runApp(FIAdisplayApp());
+  runApp(FIADisplayApp());
 }
 
-class FIAdisplayApp extends StatelessWidget {
+class FIADisplayApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FIA Display',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: DeviceListScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => IntroScreen(),
+        '/devices': (context) => DeviceListScreen(),
+        // InputScreen will be navigated via MaterialPageRoute with arguments
+      },
     );
   }
 }

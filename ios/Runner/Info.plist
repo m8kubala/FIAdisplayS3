@@ -45,5 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>FIAdisplay uses Bluetooth to connect to display devices.</string>
+
 </dict>
 </plist>

@@ -1,0 +1,14 @@
+# Use LF for all text/code files
+* text=auto eol=lf
+
+# Explicitly set line endings for known file types
+*.dart       text eol=lf
+*.yaml       text eol=lf
+*.yml        text eol=lf
+*.sh         text eol=lf
+*.gradle     text eol=lf
+*.java       text eol=lf
+*.kt         text eol=lf
+*.xml        text eol=lf
+*.plist      text eol=lf
+*.md         text eol=lf
