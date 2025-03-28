@@ -16,5 +16,5 @@ Real-time Connection Status: Easily view device connection status within the app
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
